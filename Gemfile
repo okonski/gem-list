@@ -25,8 +25,12 @@ gem 'simple-navigation'     # Multiple levels navigation
 gem 'jquery-rails', '>= 0.2.6' # jQuery instead of Prototype
 gem 'inherited_resources'   # RESTful controllers
 gem 'has_scope'             # Scopes in urls for advanced queries
-gem 'themes_for_rails', github('lucasefe/themes_for_rails') # Theming
+gem 'themes_for_rails'      # Theming
 gem 'metric_fu'             # Metrics and code statistics
+gem 'event_calendar'        # Calendar for views
+gem 'rmagick'               # Image rendering/manipulation
+gem 'acts_as_markup'        # Markdown, Textile renderer for ActiveRecord fields
+gem 'recaptcha'             # Bot prevention
 
 group :development, :test do
   gem 'rspec-core'         # RSpec testing framework
@@ -34,6 +38,7 @@ group :development, :test do
   gem 'mocha'              # Mocking framework for RSpec
   gem 'cucumber'           # Cucumber
   gem 'cucumber-rails'
+  gem 'aruba'              # Cucumber step definitions for IO actions
   gem 'webrat'             # Testing selectors for veryfing views
   gem 'database_cleaner'
 end
