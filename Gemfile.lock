@@ -142,6 +142,8 @@ GEM
       rake
     nokogiri (1.4.4)
     polyglot (0.3.1)
+    prism (0.1.0)
+      nokogiri
     rack (1.2.1)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
@@ -240,6 +242,7 @@ DEPENDENCIES
   jquery-rails (>= 0.2.6)
   metric_fu
   mocha
+  prism
   rails (= 3.0.3)
   recaptcha
   rmagick
