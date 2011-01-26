@@ -32,6 +32,7 @@ gem 'rmagick'               # Image rendering/manipulation
 gem 'acts_as_markup'        # Markdown, Textile renderer for ActiveRecord fields
 gem 'recaptcha'             # Bot prevention
 gem 'prism'                 # Microformats parser
+gem 'pacecar'                 # Automatic scopes for models    
 
 group :development, :test do
   gem 'rspec-core'         # RSpec testing framework
